@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>麻雀 点数計算 練習</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🀄 麻雀 点数計算 練習</h1>
+
+    <div id="status">
+        正答率
+        <span id="accuracy">0%</span>
+    </div>
+
+    <div class="card">
+
+        <h2>問題</h2>
+
+        <p id="player"></p>
+        <p id="winType"></p>
+
+        <h1 id="question"></h1>
+
+    </div>
+
+    <div id="choices"></div>
+
+    <button id="nextBtn" onclick="nextQuestion()" style="display:none;">
+        次の問題
+    </button>
+
+</div>
+
+<script src="score.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
